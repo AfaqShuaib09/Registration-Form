@@ -1,0 +1,21 @@
+/* Colors */
+:root {
+    --primary : #0096FF;
+    --dark-gray : #999999;
+}
+
+body.bg_body {
+    background: linear-gradient(90deg, var(--primary) , var(--dark-gray)) !important;
+    min-height: 100vh;
+}
+
+.center{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.invisible {
+    visibility: hidden;
+}
